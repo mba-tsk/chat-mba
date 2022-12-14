@@ -103,7 +103,7 @@ func main() {
 	}
 }
 
-var html = `<!DOCTYPE html>
+var html = <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -195,7 +195,7 @@ var html = `<!DOCTYPE html>
         <input type="text" id="msg" size="64" />
     </form>
 </body>
-</html>`
+</html>
 
 type manager struct {
 	clients   map[*client]bool
