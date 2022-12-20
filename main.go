@@ -166,7 +166,7 @@ var html = <!DOCTYPE html>
         background: green;
     }
     #log {
-        background: white;
+        background: green;
         margin: 0;
         padding: 0.5em 0.5em 0.5em 0.5em;
         position: absolute;
