@@ -31,11 +31,7 @@ type config struct {
 	Port   int64  `default:"8080"`
 	Prefix string `default:"/"`
 }
-type Message struct {
-    Email    string `json:"email"`
-    Username string `json:"username"`
-    Message  string `json:"message"`
-    Created  string `json:"created"`
+
 func main() {
 	var c config
 	if err := envconfig.Process("ws", &c); err != nil {
